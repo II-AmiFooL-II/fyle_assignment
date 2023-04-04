@@ -19,6 +19,9 @@ def assert_valid(cond, msg='BAD_REQUEST'):
     if cond is False:
         base_assert(400, msg)
 
+def assert_invalid(cond, msg='BAD_REQUEST'):
+    if cond is True:
+        base_assert(400, msg)
 
 def assert_found(_obj, msg='NOT_FOUND'):
     if _obj is None:

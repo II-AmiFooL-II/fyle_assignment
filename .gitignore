@@ -39,7 +39,13 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
+
+
+__pycache__/
+*.py[cod]
+
 # Unit test / coverage reports
+coverage.html/
 htmlcov/
 .tox/
 .nox/
